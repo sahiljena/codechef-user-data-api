@@ -56,7 +56,7 @@ def get_codechef():
 			username = request.args.get('username')
 			return jsonify(codechef(username))
 		except:
-			return jsonify({"ERROR":"INVL METHOD OR WRONG PARAMETERS"})
+			return jsonify({"ERROR":"INVL METHOD / WRONG PARAMETERS / USERNAME NOT FOUND"})
 
 #ERROR HANDLING
 
