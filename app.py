@@ -29,7 +29,7 @@ def codechef(username):
 
 	if int(rating.text)>3000:
 	    print("Stars : ",7)
-	    STAR = i[2]
+	    STAR = "7"
 	else:
 	    for i in star_ratings:
 	        if int(rating.text) in range(i[0],i[1]):
